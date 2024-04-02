@@ -4,17 +4,21 @@ import Button from "./components/Button";
 
 function App() {
   return (
-    <div>
-      <div className="bg-dark-purple text-white h-[30.10669rem]">
+    <div className="max-w-[90rem] min-h-screen mx-auto font-man">
+      <div className="bg-dark-purple text-white h-[30.10669rem] md:h-[33.76475rem] lg:h-[45.625rem]">
         <header className="flex justify-between p-6 bg-purple ">
           <img src="/images/logo-light.svg" />
-          <p className="underline">Apply for access</p>
+          <p className="border-b-2 border-light-green p-1 text-base lg:text-lg font-bold leading-8 tracking-[-0.01rem] lg:tracking-[-0.01125rem] hover:text-light-green cursor-pointer">
+            Apply for access
+          </p>
         </header>
         <section className="flex flex-col items-center">
-          <h1>
-            Data <span className="underline">tailored</span> to your needs.
+          <h1 className="font-fraun text-[3.125rem] md:text-[3.75rem] lg:text-[5rem] font-semibold leading-[4.125rem] md:leading-[4.75rem] lg:leading-[6rem] mt-8">
+            Data <span className="border-b-4 border-light-green">tailored</span>{" "}
+            to
+            <br /> your needs.
           </h1>
-          <Button className="bg-light-green text-black" text="Learn more" />
+          <Button className="bg-light-green mt-8 lg:mt-16" text="Learn more" />
         </section>
       </div>
       <div className="flex justify-center items-center">
@@ -24,7 +28,7 @@ function App() {
           alt="hero"
         />
       </div>
-      <article className="mt-48 mb-8">
+      <article className="mt-36 lg:mt-60 mb-8 lg:flex">
         <Card
           number="1"
           title="Actionable insights"
@@ -49,7 +53,7 @@ function App() {
           />
         </div>
         <div className="bg-dark-purple text-white h-[23.4375rem] lg:h-[25.8125rem] mt-[-5rem] md:mt-[-8.5rem] md:ml-[11.5rem] lg:mt-[-19rem] lg:ml-[25rem]">
-          <h3>Be the first to test</h3>
+          <h3 className="font-fraun">Be the first to test</h3>
           <p>
             Hi, I'm Louis Graham, the founder of the company. Book a demo call
             with me to become a beta tester for our app and kickstart your

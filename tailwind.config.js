@@ -10,6 +10,7 @@ export default {
       colors: {
         "dark-purple": "#24053E",
         "light-green": "#44FFA1",
+        "dark-gray": "#584D62",
       },
     },
   },
