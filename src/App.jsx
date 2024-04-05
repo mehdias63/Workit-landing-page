@@ -19,6 +19,12 @@ function App() {
             <br /> your needs.
           </h1>
           <Button className="bg-light-green mt-8 lg:mt-16" text="Learn more" />
+          <div>
+            <img
+              src="/images/bg-pattern-2.svg"
+              className="hidden sm:block absolute sm:left-[40rem] sm:top-[20rem] md:left-[55rem] lg:left-auto"
+            />
+          </div>
         </section>
       </div>
       <div className="flex justify-center items-center">
@@ -28,7 +34,7 @@ function App() {
           alt="hero"
         />
       </div>
-      <article className="mt-36 lg:mt-60 mb-8 lg:flex">
+      <article className="mt-36 lg:mt-60 mb-8 lg:flex justify-center items-center lg:gap-1">
         <Card
           number="1"
           title="Actionable insights"
@@ -45,33 +51,47 @@ function App() {
           text="Optimize your products, improve customer satisfaction and stay ahead of the competition with our product data analytics."
         />
       </article>
-      <main className="flex flex-col justify-center items-center md:items-start md:p-6 lg:p-40">
+      <main className="relative flex flex-col justify-center items-center md:items-start md:p-8 md:pl-24 lg:pl-8 lg:p-14 ">
         <div>
           <img
             src="/images/image-founder.webp"
             className="h-[17.5625rem] lg:h-[29.8125rem]"
           />
         </div>
-        <div className="bg-dark-purple text-white h-[23.4375rem] lg:h-[25.8125rem] mt-[-5rem] md:mt-[-8.5rem] md:ml-[11.5rem] lg:mt-[-19rem] lg:ml-[25rem]">
-          <h3 className="font-fraun">Be the first to test</h3>
-          <p>
+        <div className="absolute bg-dark-purple text-white h-[23.4375rem] lg:h-[25.8125rem] md:max-w-[32.125rem] lg:max-w-[45.625rem] p-8 md:p-10 top-56 md:top-44 md:left-[19rem] lg:top-[17rem] lg:left-[25.5rem] ">
+          <h3 className="font-fraun text-[2rem] md:text-5xl lg:text-[3.5rem] font-semibold leading-[3rem] md:leading-[3.5rem] lg:leading-[4rem] mt-4">
+            Be the first to test
+          </h3>
+          <p className="text-base lg:text-lg leading-7 lg:leading-8 my-6 ">
             Hi, I'm Louis Graham, the founder of the company. Book a demo call
             with me to become a beta tester for our app and kickstart your
             company. Apply for access below and I’ll be in touch to schedule a
             call.
           </p>
           <Button
-            className="bg-light-green text-black"
+            className="bg-light-green text-black mt-4"
             text="Apply for access"
           />
         </div>
       </main>
-      <footer className="flex flex-col justify-center items-center gap-6 p-6">
+      <footer className="flex flex-col justify-center items-center gap-6 p-6 mt-[22rem] md:mt-[18rem] lg:mt-[12rem] mb-10">
         <img src="/images/logo-dark.svg" />
-        <div className="flex gap-8">
-          <img src="/images/icon-facebook.svg" alt="facebook" />
-          <img src="/images/icon-twitter.svg" alt="twitter" />
-          <img src="/images/icon-instagram.svg" alt="instagram" />
+        <div className="flex gap-8 mt-8">
+          <img
+            src="/images/icon-facebook.svg"
+            alt="facebook"
+            className="hover:bg-dark-purple cursor-pointer"
+          />
+          <img
+            src="/images/icon-twitter.svg"
+            alt="twitter"
+            className="hover:bg-dark-purple cursor-pointer"
+          />
+          <img
+            src="/images/icon-instagram.svg"
+            alt="instagram"
+            className="hover:bg-dark-purple cursor-pointer"
+          />
         </div>
       </footer>
     </div>
