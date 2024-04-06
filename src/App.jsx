@@ -4,7 +4,7 @@ import Button from "./components/Button";
 
 function App() {
   return (
-    <div className="max-w-[90rem] min-h-screen mx-auto font-man">
+    <div className="max-w-[90rem] min-h-screen mx-auto font-man overflow-hidden">
       <div className="bg-dark-purple text-white h-[30.10669rem] md:h-[33.76475rem] lg:h-[45.625rem]">
         <header className="flex justify-between p-6 bg-purple ">
           <img src="/images/logo-light.svg" />
@@ -12,19 +12,21 @@ function App() {
             Apply for access
           </p>
         </header>
-        <section className="flex flex-col items-center">
+        <section className="relative flex flex-col items-center">
           <h1 className="font-fraun text-[3.125rem] md:text-[3.75rem] lg:text-[5rem] font-semibold leading-[4.125rem] md:leading-[4.75rem] lg:leading-[6rem] mt-8">
             Data <span className="border-b-4 border-light-green">tailored</span>{" "}
             to
             <br /> your needs.
           </h1>
           <Button className="bg-light-green mt-8 lg:mt-16" text="Learn more" />
-          <div>
             <img
               src="/images/bg-pattern-2.svg"
-              className="hidden sm:block absolute sm:left-[40rem] sm:top-[20rem] md:left-[55rem] lg:left-auto"
+              className="absolute hidden md:block -right-20  lg:-right-10 bottom-[-7rem]"
             />
-          </div>
+            <img
+              src="/images/bg-pattern-1.svg"
+              className="absolute hidden md:block left-[-11rem] lg:left-[-9rem]"
+            />
         </section>
       </div>
       <div className="flex justify-center items-center">
@@ -58,7 +60,7 @@ function App() {
             className="h-[17.5625rem] lg:h-[29.8125rem]"
           />
         </div>
-        <div className="absolute bg-dark-purple text-white h-[23.4375rem] lg:h-[25.8125rem] md:max-w-[32.125rem] lg:max-w-[45.625rem] p-8 md:p-10 top-56 md:top-44 md:left-[19rem] lg:top-[17rem] lg:left-[25.5rem] ">
+        <div className="relative bg-dark-purple text-white md:max-w-[32.125rem] lg:max-w-[45.625rem] p-8 md:p-10 mt-[-4rem] md:ml-[14rem] md:mt-[-7rem] lg:ml-[25rem] lg:mt-[-18rem]">
           <h3 className="font-fraun text-[2rem] md:text-5xl lg:text-[3.5rem] font-semibold leading-[3rem] md:leading-[3.5rem] lg:leading-[4rem] mt-4">
             Be the first to test
           </h3>
@@ -72,9 +74,10 @@ function App() {
             className="bg-light-green text-black mt-4"
             text="Apply for access"
           />
+          <img src="/images/bg-pattern-3.svg" className="hidden md:block absolute left-[18rem] bottom-[-5rem] lg:left-[25rem]" />
         </div>
       </main>
-      <footer className="flex flex-col justify-center items-center gap-6 p-6 mt-[22rem] md:mt-[18rem] lg:mt-[12rem] mb-10">
+      <footer className="flex flex-col justify-center items-center gap-6 p-6 my-10">
         <img src="/images/logo-dark.svg" />
         <div className="flex gap-8 mt-8">
           <img
