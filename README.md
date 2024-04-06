@@ -24,7 +24,7 @@ This is a solution to the [Workit landing page challenge on Frontend Mentor](htt
 ### Links
 
 - Solution URL: [https://github.com/mehdias63/Workit-landing-page]
-- Live Site URL: [https://skilled-elearning-landing-page-pcput3rd4-mehdias63s-projects.vercel.app/]
+- Live Site URL: [https://workit-landing-page-bice.vercel.app/]
 
 ## My process
 

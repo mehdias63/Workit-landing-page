@@ -7,7 +7,7 @@ function App() {
     <div className="max-w-[90rem] min-h-screen mx-auto font-man overflow-hidden">
       <div className="bg-dark-purple text-white h-[30.10669rem] md:h-[33.76475rem] lg:h-[45.625rem]">
         <header className="flex justify-between p-6 bg-purple ">
-          <img src="/images/logo-light.svg" />
+          <img src="/images/logo-light.svg" alt="logo" />
           <p className="border-b-2 border-light-green p-1 text-base lg:text-lg font-bold leading-8 tracking-[-0.01rem] lg:tracking-[-0.01125rem] hover:text-light-green cursor-pointer">
             Apply for access
           </p>
@@ -22,10 +22,12 @@ function App() {
             <img
               src="/images/bg-pattern-2.svg"
               className="absolute hidden md:block -right-20  lg:-right-10 bottom-[-7rem]"
+              alt="bg-pattern"
             />
             <img
               src="/images/bg-pattern-1.svg"
               className="absolute hidden md:block left-[-11rem] lg:left-[-9rem]"
+              alt="bg-pattern"
             />
         </section>
       </div>
@@ -58,6 +60,7 @@ function App() {
           <img
             src="/images/image-founder.webp"
             className="h-[17.5625rem] lg:h-[29.8125rem]"
+            alt="founder"
           />
         </div>
         <div className="relative bg-dark-purple text-white md:max-w-[32.125rem] lg:max-w-[45.625rem] p-8 md:p-10 mt-[-4rem] md:ml-[14rem] md:mt-[-7rem] lg:ml-[25rem] lg:mt-[-18rem]">
@@ -74,11 +77,11 @@ function App() {
             className="bg-light-green text-black mt-4"
             text="Apply for access"
           />
-          <img src="/images/bg-pattern-3.svg" className="hidden md:block absolute left-[18rem] bottom-[-5rem] lg:left-[25rem]" />
+          <img src="/images/bg-pattern-3.svg" className="hidden md:block absolute left-[18rem] bottom-[-5rem] lg:left-[25rem]" alt="bg-pattern" />
         </div>
       </main>
       <footer className="flex flex-col justify-center items-center gap-6 p-6 my-10">
-        <img src="/images/logo-dark.svg" />
+        <img src="/images/logo-dark.svg" alt="logo" />
         <div className="flex gap-8 mt-8">
           <img
             src="/images/icon-facebook.svg"
