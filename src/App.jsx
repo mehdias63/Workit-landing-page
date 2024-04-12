@@ -5,7 +5,7 @@ import Button from "./components/Button";
 function App() {
   return (
     <div className="max-w-[90rem] min-h-screen mx-auto font-man overflow-hidden">
-      <div className="bg-dark-purple text-white h-[30.10669rem] md:h-[33.76475rem] lg:h-[45.625rem]">
+      <div className="bg-[url('/images/bg-hero.svg')] bg-no-repeat bg-cover text-white h-[30.10669rem] md:h-[33.76475rem] lg:h-[45.625rem]">
         <header className="flex justify-between p-6 bg-purple ">
           <img src="/images/logo-light.svg" alt="logo" />
           <p className="border-b-2 border-light-green p-1 text-base lg:text-lg font-bold leading-8 tracking-[-0.01rem] lg:tracking-[-0.01125rem] hover:text-light-green cursor-pointer">
